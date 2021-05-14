@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <title>Gallery - Golden State Warriors</title>
+    <link rel="stylesheet" type="text/css" href="GalleryStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    
+    <!-- TOP NAV -->
+
+    <div class="nav">
+        <img class="logo" src="assets/GSW_Logo.png" />
+        <div class="pages">
+            <div class="h-1"><a href="HomePage.html"
+                    style="color: #ffffff; text-decoration: none; font-weight: 400">HOME</a></div>
+            <div class="s-2"><a href="Schedule.html" style="color: #ffffff; text-decoration: none;">SCHEDULE</a></div>
+            <div class="n-3"><a href="News.html" style="color: #ffffff; text-decoration: none;">NEWS</a></div>
+            <div class="r-4"><a href="Roster.html" style="color: #ffffff; text-decoration: none;">ROSTER</a></div>
+            <div class="g-5"><a href="Gallery.html" style="color: #FDB927; text-decoration: none;">GALLERY</a></div>
+            <div class="a-6"><a href="About.html" style="color: #ffffff; text-decoration: none;">ABOUT</a></div>
+        </div>
+    </div>
+
+    <!-- GALLERY -->
+
+    <div class="gallery-content">
+        <h1 class="title">GALLERY</h1>
+        <img class="line-1" src="assets/Line.png" />
+        <!-- Original Source: https://www.nba.com/warriors/photos/ -->
+        <section class="gallery min-vh-100">
+            <div class="container-lg">
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <div class="col">
+                        <img src="assets/gallery-img1.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img2.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img3.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img4.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img5.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img6.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img7.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img8.png" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="assets/gallery-img9.png" class="gallery-item" alt="gallery">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="view-full">
+            <div class="center">
+                <a class="view-full-gallery-button" href="https://www.nba.com/warriors/photos/">VIEW FULL GALLERY</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    
+    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal l-g">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/GSW_Logo.png" class="modal-img" alt="modal img">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/galleryjs.js"></script>
+</body>
+
+<!-- FOOTER -->
+
+<footer class="page-footer">
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="brand">
+                <img class="logo-footer" src="assets/GSW_Logo.png" />
+                <p class="team-name" style="color: #FDB927">Golden State <br> Warriors</p>
+            </div>
+            <div class="social2">
+                <a href="https://www.facebook.com/warriors" target="_blank">
+                    <img class="icon" src="assets/facebook.png" />
+                </a>
+                <a href="https://www.instagram.com/warriors/" target="_blank">
+                    <img class="icon" src="assets/instagram.png" />
+                </a>
+                <a href="https://twitter.com/warriors" target="_blank">
+                    <img class="icon" src="assets/twitter.png" />
+                </a>
+                <a href="https://www.youtube.com/user/GoldenStateWarriors" target="_blank">
+                    <img class="icon" src="assets/youtube.png" />
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-12">
+            <h6 class="font-weight-semibold" style="color: #FDB927">CONTACT</h6>
+            <p style="color: #aaaaaa;">Golden State Warriors<br />
+                1 Warriors Way<br />
+                San Francisco, CA 94158<br />
+                (415) 388-0100</p>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-12">
+            <h6 class="font-weight-semibold" style="color: #FDB927">TICKET INFO</h6>
+            <p style="color: #aaaaaa;">
+                • Ticket Sales & Inquiries: 1-888-GSW-HOOP<br />
+                • Group Sales: 1-888-GSW-HOOP<br />
+                • Membership Services: 1-888-GSW-HOOP<br />
+                • Suite Sales: 1-888-GSW-HOOP</p>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-12">
+            <h6 class="font-weight-semibold" style="color: #FDB927">CREATED BY</h6>
+            <p style="color: #aaaaaa;">Saifali S., Jason B., Shah N. M., Manbir S.</p>
+            <h6 class="font-weight-semibold" style="color: #FDB927">CLASS</h6>
+            <p style="color: #aaaaaa;">BUS4 118W-01, Professor Dhar</p>
+        </div>
+
+    </div>
+</footer>
+
+</html>
